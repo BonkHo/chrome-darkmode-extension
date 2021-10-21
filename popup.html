@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
+    <style>
+        .container {
+            background-color: #121212;
+            border-radius: 1rem;
+            width: 300px;
+            padding: 0.25em 0.5em 2em 1em;
+        }
+        h1 {
+            font-family: "Roboto", sans-serif;
+            color: #fff;
+        }
+
+        .button {
+            font-family: "Roboto", sans-serif;
+            font-size: 1.3rem;
+            background-color: #fff;
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            height: 2.2rem;
+            width: 5rem;
+            border-radius: 1rem;
+        }
+        .row {
+            padding: 0 0.3rem 0 0.2rem;
+        }
+        .circle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 2.2rem;
+            width: 2.2rem;
+            border-radius: 50%;
+            background-color: lightgray;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <h1><span>BonkHo</span> <span>Dark Mode</span></h1>
+            <div class="button">
+                <div class="circle"></div>
+                <div class="row">On</div>
+                <div class="row">Off</div>
+            </div>
+        </div>
+    </body>
+</html>

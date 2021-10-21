@@ -1,0 +1,20 @@
+{
+    "name": "BonkHo DarkMode",
+    "version": "1.0.0",
+    "description": "Turns webpages into darkmode",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["popup.js"],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_title": "BonkHo DarkMode",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["https://*/*", "http://*/*", "tabs"],
+    "icons": {
+        "16": "icons/logo_16x16.png",
+        "48": "icons/logo_48x48.png",
+        "128": "icons/logo_128x128.png"
+    }
+}
